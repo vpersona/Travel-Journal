@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles\newpost.css">
+    <title>New Post | Travel Journal</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>New Post</h1>
+        <p>This is where you can create a new post.</p>
+        
+        <!-- Display captured image -->
+        <img id="captured-image" alt="Captured photo">
+        <div id="location-box" class="alert alert-info mt-3">
+        <strong>Location:</strong> <span id="status">Fetching...</span>
+            <div id="coordinates" style="display:none;">
+                Lat: <span id="lat"></span>, 
+                Lon: <span id="lon"></span>
+            </div>
+</div>
+    </div>
+    <div class="form-group">
+    <label for="TextArea">Description</label>
+    <textarea class="form-control" id="TextArea" rows="3"></textarea>
+    </div>
+
+    <button id="add-post-btn" class="btn btn-primary rounded-circle">Add</button>
+    
+<script src="scripts\newpost.js"></script>
+</body>
+
+</html>
