@@ -10,7 +10,6 @@ window.addEventListener('DOMContentLoaded', function() {
         const tempImg = new Image();
 
         tempImg.onload = function() {
-            // max width: 800px for the img
             const maxWidth = 800;
             const scale = maxWidth / tempImg.width;
             canvas.width = maxWidth;
