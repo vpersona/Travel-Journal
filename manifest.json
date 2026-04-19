@@ -2,7 +2,7 @@
   "name": "Travel Journal",
   "short_name": "Travel",
   "description": "Document your travels with photos, GPS location, and an interactive map",
-  "start_url": "/main.html",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007bff",

@@ -1,7 +1,7 @@
 const CACHE_NAME = 'travel-journal-v1';
 const urlsToCache = [
   '/',
-  '/main.html',
+  '/index.html',
   '/map.html',
   '/newpost.html',
   '/styles/style.css',

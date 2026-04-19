@@ -98,7 +98,7 @@ document.getElementById('add-post-btn').addEventListener('click', function() {
     try {
         localStorage.setItem('travel_posts', JSON.stringify(posts));
         localStorage.removeItem('capturedImage'); 
-        window.location.href = './main.html'; 
+        window.location.href = './index.html'; 
     } catch (e) {
         alert("Memory full! Cannot save the post.");
     }

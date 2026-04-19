@@ -44,7 +44,7 @@ cd Travel-Journal
 
 2. **Uruchom lokalny serwer:**
 ```
-Zainstaluj rozszerzenie Live Server, kliknij prawym przyciskiem na main.html i naciśnij "Open with Live Server"
+Zainstaluj rozszerzenie Live Server, kliknij prawym przyciskiem na index.html i naciśnij "Open with Live Server"
 ```
 
 3. **Otwórz w przeglądarce:**
@@ -69,7 +69,7 @@ Zainstaluj rozszerzenie Live Server, kliknij prawym przyciskiem na main.html i n
 
 ```
 Travel-Journal/
-├── main.html              
+├── index.html              
 ├── newpost.html           
 ├── map.html               
 ├── service-worker.js      
