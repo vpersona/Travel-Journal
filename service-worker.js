@@ -17,7 +17,7 @@ const urlsToCache = [
   'https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css'
 ];
 
-// Install event - cache files
+// zainstaluj service worker
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME)
@@ -26,7 +26,7 @@ self.addEventListener('install', event => {
   );
 });
 
-// Activate event - clean old caches
+// aktywuj service worker i usuń stare cache
 self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys().then(cacheNames => {
@@ -41,7 +41,7 @@ self.addEventListener('activate', event => {
   );
 });
 
-// Fetch event - serve from cache, fallback to network
+// fetch z cache 
 self.addEventListener('fetch', event => {
   event.respondWith(
     caches.match(event.request)
