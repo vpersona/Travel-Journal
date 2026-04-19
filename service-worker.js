@@ -11,7 +11,7 @@ const urlsToCache = [
   './scripts/map.js',
   './scripts/newpost.js',
   './scripts/share.js',
-  '/images/plus.png',
+  './images/plus.png',
   'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css',
   'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js',
   'https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css'
