@@ -9,6 +9,8 @@ document.getElementById('camera-input').addEventListener('change', function(even
     }
 });
 
+
+
 window.addEventListener('DOMContentLoaded', function() {
     const postsContainer = document.querySelector('#posts-container');
     const noPostsMessage = document.querySelector('.no-posts');
@@ -28,7 +30,8 @@ window.addEventListener('DOMContentLoaded', function() {
                     <p class="card-text"><small class="text-muted">${post.date}</small></p>
                     <p class="card-text">GPS: ${post.lat.toFixed(4)}, ${post.lon.toFixed(4)}</p>
                     <p class="card-text">${post.description ||''}</p>
-                </div>
+                    <button class="btn btn-sm btn-primary" onclick="sharePost(${post.id})">📤 Share</button>
+                    </div>
             `;
             postsContainer.appendChild(postElement);
         });

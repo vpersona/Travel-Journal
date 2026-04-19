@@ -63,7 +63,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 });
         }, 
         (err) => { status.innerText = "City: GPS Error: " + err.message; },
-        { enableHighAccuracy: true, timeout: 5000 });
+        { enableHighAccuracy: true, timeout: 20000 });
     }
 });
 
