@@ -4,7 +4,7 @@ Mobilna aplikacja do dokumentowania swoich podróży z wykorzystaniem zdjęć i 
 
 ##  Zrzut ekranu aplikacji
 
-
+<img width="946" height="2047" alt="screenshot" src="https://github.com/user-attachments/assets/cb28f1ee-85bf-49cc-8517-03655615777f" />
 
 ---
 
